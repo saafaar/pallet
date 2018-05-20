@@ -6,15 +6,15 @@ from pallet.repository.repository import MemRepo
 
 repository = MemRepo
 
-access_token = 'EAAO096YLGpkBAKXbgpcTXFtAcCtmnCifkEyXGKavGdahHfqyPwTfYZB1qDi6wAPkjtb0lbLmcIqNKZCGyNxyMvZCNwZAJpaM5hrFqJWdhZAnOpR5kUjvkZA5ogEZAfZAQA7Q2KZCKpWIqi2ZCdMNMsPsS0gVMTk3R9L70Yg7462qemsQZDZD'
+access_token = 'l'
 
 app = Flask(__name__)
 
-PAT = 'EAAO096YLGpkBAKXbgpcTXFtAcCtmnCifkEyXGKavGdahHfqyPwTfYZB1qDi6wAPkjtb0lbLmcIqNKZCGyNxyMvZCNwZAJpaM5hrFqJWdhZAnOpR5kUjvkZA5ogEZAfZAQA7Q2KZCKpWIqi2ZCdMNMsPsS0gVMTk3R9L70Yg7462qemsQZDZD'
+PAT = 'l'
 
-CLIENT_ACCESS_TOKEN = 'EAAO096YLGpkBAKXbgpcTXFtAcCtmnCifkEyXGKavGdahHfqyPwTfYZB1qDi6wAPkjtb0lbLmcIqNKZCGyNxyMvZCNwZAJpaM5hrFqJWdhZAnOpR5kUjvkZA5ogEZAfZAQA7Q2KZCKpWIqi2ZCdMNMsPsS0gVMTk3R9L70Yg7462qemsQZDZD'
+CLIENT_ACCESS_TOKEN = 'l'
 
-VERIFY_TOKEN = 'elek'
+VERIFY_TOKEN = 't'
 
 
 @app.route('/', methods=['GET'])
